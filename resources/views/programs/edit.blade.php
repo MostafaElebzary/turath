@@ -60,13 +60,13 @@
                         <div class="col-sm-10">
                             {{ Form::file('image',array('class'=>'form-control')) }}
                             <br>
-                            <img src="{{url($user_data->image) }}" style="width:50%;height:150px;" />
+                            <img src="{{url($user_data->image) }}" style="width:50%;height:150px;"/>
 
                         </div>
                     </div>
-
-                    {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info btn-block']) }}
-                    {{ Form::close() }}
+                    <div style="text-align: center">
+                        {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info','style'=>" font-weight: bold"]) }}
+                        {{ Form::close() }} </div>
                 </div>
             </div> <!-- end col -->
         </div> <!-- end row -->

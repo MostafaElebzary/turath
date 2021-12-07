@@ -72,7 +72,7 @@
                             <th>{{trans('admin.mobile')}}</th>
                             <th>{{trans('admin.job')}}</th>
 
-                            <th></th>
+                            <th>تعديل وحذف</th>
                         </tr>
                         </thead>
 

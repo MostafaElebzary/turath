@@ -217,7 +217,7 @@
 
                             </li>
                             <li class="">
-                                <a href="{{url('contact')}}">التواصل والشكاوى</a>
+                                <a href="{{url('contact')}}">الشكاوي والاقتراحات</a>
 
                             </li>
 

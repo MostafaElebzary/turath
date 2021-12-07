@@ -39,7 +39,8 @@
                                 <label for="example-text-input" class="col-sm-2">عنوان الموقع</label>
 
                                 <div class="col-sm-10">
-                                    <input name="title" class="form-control" type="text" value="{{$maindata->title}}" required>
+                                    <input name="title" class="form-control" type="text" value="{{$maindata->title}}"
+                                           required>
                                 </div>
                             </div>
 
@@ -47,35 +48,40 @@
                                 <label for="example-text-input" class="col-sm-2">{{trans('admin.email')}}</label>
 
                                 <div class="col-sm-10">
-                                    <input name="email" class="form-control" type="email" value="{{$maindata->email}}" required>
+                                    <input name="email" class="form-control" type="email" value="{{$maindata->email}}"
+                                           required>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="example-text-input" class="col-sm-2">facebook</label>
 
                                 <div class="col-sm-10">
-                                    <input name="facebook" class="form-control" type="text" value="{{$maindata->facebook}}" required>
+                                    <input name="facebook" class="form-control" type="text"
+                                           value="{{$maindata->facebook}}" required>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="example-text-input" class="col-sm-2">instagram</label>
 
                                 <div class="col-sm-10">
-                                    <input name="instagram" class="form-control" type="text" value="{{$maindata->instagram}}" required>
+                                    <input name="instagram" class="form-control" type="text"
+                                           value="{{$maindata->instagram}}" required>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="example-text-input" class="col-sm-2"> twitter </label>
 
                                 <div class="col-sm-10">
-                                    <input name="twitter" class="form-control" type="text" value="{{$maindata->twitter}}" required>
+                                    <input name="twitter" class="form-control" type="text"
+                                           value="{{$maindata->twitter}}" required>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="example-text-input" class="col-sm-2">linkedin</label>
 
                                 <div class="col-sm-10">
-                                    <input name="linkedin" class="form-control" type="text" value="{{$maindata->linkedin}}" required>
+                                    <input name="linkedin" class="form-control" type="text"
+                                           value="{{$maindata->linkedin}}" required>
                                 </div>
                             </div>
 
@@ -83,21 +89,24 @@
                                 <label for="example-text-input" class="col-sm-2">رقم الجوال</label>
 
                                 <div class="col-sm-10">
-                                    <input name="phone" class="form-control" type="text" value="{{$maindata->phone}}" required>
+                                    <input name="phone" class="form-control" type="text" value="{{$maindata->phone}}"
+                                           required>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="example-text-input" class="col-sm-2">website link</label>
 
                                 <div class="col-sm-10">
-                                    <input name="website" class="form-control" type="text" value="{{$maindata->website}}" required>
+                                    <input name="website" class="form-control" type="text"
+                                           value="{{$maindata->website}}" required>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="example-text-input" class="col-sm-2">  العنوان	 </label>
+                                <label for="example-text-input" class="col-sm-2"> العنوان </label>
 
                                 <div class="col-sm-10">
-                                    <input name="address" class="form-control" type="text" value="{{$maindata->address}}" required>
+                                    <input name="address" class="form-control" type="text"
+                                           value="{{$maindata->address}}" required>
                                 </div>
                             </div>
 
@@ -110,7 +119,7 @@
                                 <div class="col-sm-10">
                                     {{ Form::file('logo',array('class'=>'form-control')) }}
                                     <a target="_blank" href="{{url($maindata->logo) }}">
-                                    <img src="{{url($maindata->logo) }}" style="width:400px;height:150px;" />
+                                        <img src="{{url($maindata->logo) }}" style="width:400px;height:150px;"/>
                                     </a>
                                 </div>
                             </div>
@@ -121,7 +130,7 @@
                                 <div class="col-sm-10">
                                     {{ Form::file('chart_image',array('class'=>'form-control')) }}
                                     <a target="_blank" href="{{url($maindata->chart_image) }}">
-                                        <img src="{{url($maindata->chart_image) }}" style="width:400px;height:150px;" />
+                                        <img src="{{url($maindata->chart_image) }}" style="width:400px;height:150px;"/>
                                     </a>
                                 </div>
                             </div>
@@ -131,23 +140,21 @@
 
                                 <div class="col-sm-10">
                                     {{ Form::file('board_directors_pdf',array('class'=>'form-control')) }}
-                                 <br>
-                                    <a target="_blank" class="btn btn-danger" href="{{url($maindata->board_directors_pdf) }}">
-                                    <i class="fa fa-file-pdf-o"></i>
+                                    <br>
+                                    <a target="_blank" class="btn btn-danger"
+                                       href="{{url($maindata->board_directors_pdf) }}">
+                                        <i class="fa fa-file-pdf-o"></i>
                                         اطلاع
-                                     </a>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
-
-
-
-
-                    {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info btn-block']) }}
-                    {{ Form::close() }}
+                    <div style="text-align: center">
+                        {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info','style'=>" font-weight: bold"]) }}
+                        {{ Form::close() }} </div>
                 </div>
             </div> <!-- end col -->
         </div> <!-- end row -->

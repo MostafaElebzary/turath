@@ -11,10 +11,10 @@
         <div class="breadcrumb-wrapper col-xs-12">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  لوحة التحكم
+                    لوحة التحكم
                 </li>
                 <li class="breadcrumb-item"><a href="{{ url()->previous() }}">
-                روؤيتنا
+                        روؤيتنا
                     </a>
                 </li>
 
@@ -38,7 +38,7 @@
                         <label for="example-text-input" class="col-sm-2 col-form-label">العنوان الرئيسي</label>
                         <div class="col-sm-10">
                             <input name="title" class="form-control" type="text" value="{{$user_data->title}}"
-                                     required>
+                                   required>
                         </div>
                     </div>
 
@@ -58,13 +58,13 @@
                         <div class="col-sm-10">
                             {{ Form::file('image',array('class'=>'form-control')) }}
                             <br>
-                            <img src="{{url($user_data->image) }}" style="width:50%;height:150px;" />
+                            <img src="{{url($user_data->image) }}" style="width:50%;height:150px;"/>
 
                         </div>
                     </div>
-
-                    {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info btn-block']) }}
-                    {{ Form::close() }}
+                    <div style="text-align: center">
+                        {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info','style'=>" font-weight: bold"]) }}
+                        {{ Form::close() }} </div>
                 </div>
             </div> <!-- end col -->
         </div> <!-- end row -->

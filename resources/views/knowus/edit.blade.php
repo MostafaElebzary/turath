@@ -61,9 +61,9 @@
                             <div class="form-group row">
                                  @if($maindata->images->count() > 0)
                                     @foreach($maindata->images as $image)
-                                        <div class="col-sm-10">
+                                        <div class="col-sm-10" style="text-align: left">
                                             <br>
-                                            <img src="{{url($image->image)}}" style="width:400px;height:150px;"/>
+                                            <img src="{{url($image->image)}}" style="width:400px;height:150px;padding: 40px"/>
 
                                             <a  class="btn btn-danger"
                                                href="{{url("delete_img/".$image->id) }}">
@@ -76,9 +76,9 @@
                         </div>
                     </div>
 
-
-                    {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info btn-block']) }}
-                    {{ Form::close() }}
+<div style="text-align: center">
+                    {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info','style'=>" font-weight: bold"]) }}
+                    {{ Form::close() }} </div>
                 </div>
             </div> <!-- end col -->
         </div> <!-- end row -->

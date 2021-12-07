@@ -69,7 +69,7 @@
                             <th>#</th>
                             <th>الصورة</th>
 
-                            <th></th>
+                            <th>تعديل</th>
                         </tr>
                         </thead>
 
@@ -84,7 +84,7 @@
 
                                 <td>{{$i}}</td>
 
-                                <td><img src="{{url($user->image) }}" style="width:75px;height:75px;"/>
+                                <td><img src="{{url($user->image) }}" style="width:150px;height:150px;"/>
                                 </td>
                                 <td> <a class='btn btn-raised btn-success btn-sml'
                                         href=" {{url('slider/'.$user->id.'/edit')}}"><i class="fa fa-edit"></i></a>

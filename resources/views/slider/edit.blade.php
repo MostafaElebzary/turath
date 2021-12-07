@@ -43,12 +43,14 @@
                             <div class="col-sm-9">
                                 {{ Form::file('image',array('class'=>'form-control')) }}
                                 <br>
-                                <img src="{{url($slider->image) }}" style="width:100%;height:300px;" />
+                                <img src="{{url($slider->image) }}"  />
 
                             </div>
                         </div>
 
-                {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info btn-block']) }}
+                <div style="text-align: center">
+                    {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info','style'=>" font-weight: bold"]) }}
+                </div>
                 {{ Form::close() }}
             </div>
         </div> <!-- end col -->

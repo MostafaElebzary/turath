@@ -32,9 +32,9 @@
         <div class="breadcrumb-wrapper col-xs-12">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                 التواصل
+                    الشكاوي والاقتراحات
                 </li>
-                <li class="breadcrumb-item">التواصل والشكاوى</li>
+
 
 
             </ol>
@@ -69,7 +69,7 @@
                             <th>البريد الاليكترونى</th>
                             <th>النوع</th>
 
-                            <th></th>
+                            <th>تعديل وحذف</th>
                         </tr>
                         </thead>
 

@@ -10,7 +10,7 @@
         <div class="breadcrumb-wrapper col-xs-12">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    pdf
+                    الملفات
                 </li>
                 <li class="breadcrumb-item"><a href="{{ url()->previous() }}">
                         {{trans('admin.'.$type)}}
@@ -54,9 +54,9 @@
 
                         </div>
                     </div>
-
-                    {{ Form::submit( trans('admin.Add') ,['class'=>'btn btn-info btn-block']) }}
-                    {{ Form::close() }}
+                    <div style="text-align: center">
+                        {{ Form::submit( trans('admin.Add') ,['class'=>'btn btn-info','style'=>" font-weight: bold"]) }}
+                        {{ Form::close() }} </div>
                 </div>
             </div> <!-- end col -->
         </div> <!-- end row -->

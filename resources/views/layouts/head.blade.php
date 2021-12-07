@@ -1,6 +1,4 @@
-
-
- <link rel="shortcut icon" href="{{$setting->logo}}">
+<link rel="shortcut icon" href="{{$setting->logo}}">
 
 @yield('css')
 
@@ -11,7 +9,24 @@
 <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
 
 <style>
-body {
-    font-family: 'Cairo';font-size: 18px;
-}
+    body {
+        font-family: 'Cairo';
+        font-size: 18px;
+    }
+
+    label {
+        font-family: 'Cairo';
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    th {
+        font-family: 'Cairo';
+        font-size: 18px;
+    }
+
+    li {
+        text-align: right;
+    }
+
 </style>

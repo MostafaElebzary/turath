@@ -63,8 +63,8 @@
                     </div>
                 </div>
 
-
-                {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info btn-block']) }}
+<div style="text-align: center">
+                {{ Form::submit( trans('admin.edit') ,['class'=>'btn btn-info ']) }} </div>
             </div>
         </div> <!-- end col -->
     </div> <!-- end row -->
