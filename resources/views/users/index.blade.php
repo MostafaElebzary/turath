@@ -57,8 +57,8 @@
 
 
         <div class="col-12">
-            <div>
-                <a href="{{url('users/create')}}  " class="btn btn-info btn-block">{{trans('admin.createuser')}} </a>
+            <div class="text-center">
+                <a href="{{url('users/create')}}  " class="btn btn-info btn-lg">{{trans('admin.createuser')}} </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">

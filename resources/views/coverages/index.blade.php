@@ -54,8 +54,8 @@
 
 
         <div class="col-12">
-            <div>
-                <a href="{{url('coverages/create')}}  " class="btn btn-info btn-block">إضافة تغطية    </a>
+            <div class="text-center">
+                <a href="{{url('coverages/create')}}  " class="btn btn-info  btn-lg">إضافة تغطية    </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">

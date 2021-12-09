@@ -57,8 +57,8 @@
 
 
         <div class="col-12">
-            <div>
-                <a href="{{url('programs/create')}}  " class="btn btn-info btn-block">إضافة برنامج </a>
+            <div class="text-center">
+                <a href="{{url('programs/create')}}  " class="btn btn-info  btn-lg ">إضافة برنامج </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">
@@ -70,7 +70,7 @@
                             <th>العنوان الرئيسي</th>
                             <th>الصورة</th>
 
-                            <th>تعديل وحذف</th>
+                            <th>تعديل وحذف </th>
                         </tr>
                         </thead>
 

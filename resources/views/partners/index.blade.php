@@ -54,8 +54,8 @@
 
 
         <div class="col-12">
-            <div>
-                <a href="{{url('partners/create')}}  " class="btn btn-info btn-block">إضافة شريك نجاح </a>
+            <div class="text-center">
+                <a href="{{url('partners/create')}}  " class="btn btn-info  btn-lg">إضافة شريك نجاح </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">
@@ -67,7 +67,7 @@
 
                             <th>الصورة</th>
 
-                            <th>تعديل وحذف</th>
+                            <th>تعديل وحذف </th>
                         </tr>
                         </thead>
 

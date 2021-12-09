@@ -56,8 +56,8 @@
 
 
         <div class="col-12">
-            <div>
-                <a href="{{route('Addpdf',['type' => $type])}}" class="btn btn-info btn-block"> اضافة {{trans('admin.'.$type)}}</a>
+            <div class="text-center">
+                <a href="{{route('Addpdf',['type' => $type])}}" class="btn btn-info btn-lg"> اضافة {{trans('admin.'.$type)}}</a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">
@@ -70,7 +70,7 @@
                             <th>الملف</th>
 
 
-                            <th>تعديل وحذف</th>
+                            <th>تعديل وحذف </th>
                         </tr>
                         </thead>
 

@@ -56,8 +56,8 @@
 
 
         <div class="col-12">
-            <div>
-                <a href="{{url('media-report/create')}}  " class="btn btn-info btn-block">إضافة تقرير اعلامي </a>
+            <div class="text-center">
+                <a href="{{url('media-report/create')}}  " class="btn btn-info  btn-lg">إضافة تقرير اعلامي </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">
@@ -69,7 +69,7 @@
                             <th>العنوان الرئيسي</th>
                             <th>الصورة</th>
 
-                            <th>تعديل وحذف</th>
+                            <th>تعديل وحذف </th>
                         </tr>
                         </thead>
 

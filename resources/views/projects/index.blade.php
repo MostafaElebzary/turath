@@ -56,8 +56,8 @@
 
 
         <div class="col-12">
-            <div>
-                <a href="{{url('projects/create')}}  " class="btn btn-info btn-block">إضافة مشروع </a>
+            <div class="text-center">
+                <a href="{{url('projects/create')}}  " class="btn btn-info  btn-lg">إضافة مشروع </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">

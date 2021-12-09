@@ -56,8 +56,8 @@
 
 
         <div class="col-12">
-            <div>
-                <a href="{{url('news/create')}}  " class="btn btn-info btn-block">إضافة خبر </a>
+            <div class="text-center">
+                <a href="{{url('news/create')}}  " class="btn btn-info  btn-lg">إضافة خبر </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">
@@ -70,7 +70,7 @@
                             <th>التاريخ</th>
                             <th>الصورة</th>
 
-                            <th>تعديل وحذف</th>
+                            <th>تعديل وحذف </th>
                         </tr>
                         </thead>
 

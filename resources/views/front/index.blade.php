@@ -16,7 +16,7 @@
                                   data-text="w:normal;s:20,20,7,4;l:0,0,9,6;"
                                   data-dim="w:598px,598px,458px,370px;h:723px,723px,554px,447px;"
                                   data-frame_0="sX:0.8;sY:0.8;" data-frame_1="e:power4.out;st:200;sp:1000;"
-                                  data-frame_999="o:0;st:w;" style="z-index:8;"><img
+                                  data-frame_999="o:0;st:w;" style="z-index:8;padding: 22px;"><img
                                 src="{{$sliders[0]->image}}" width="598"
                                 height="723"></rs-layer>
 

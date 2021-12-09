@@ -90,8 +90,8 @@
                     <div class="row">
 
         <div class="col-12">
-            <div>
-                <a href="{{url('our-vision/create')}}  " class="btn btn-info btn-block">إضافة نص فرعي    </a>
+            <div class="text-center">
+                <a href="{{url('our-vision/create')}}  " class="btn btn-info  btn-lg">إضافة نص فرعي    </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">
