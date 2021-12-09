@@ -2,49 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d35b55a-8224-4efd-9685-314c875150e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/about/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/coverages/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/coverages/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/coverages/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/coverages/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/coverages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/coverages/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/donation/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/donation/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/donation/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/donation/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/donation/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/donation/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/knowus/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/knowus/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/map/map.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/map/map.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mediareport/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mediareport/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mediareport/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mediareport/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mediareport/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mediareport/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/metsonomia/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/metsonomia/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/metsonomia/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/metsonomia/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/metsonomia/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/metsonomia/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ourvision/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ourvision/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ourvision/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ourvision/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partners/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partners/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partners/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partners/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partners/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partners/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pdf/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pdf/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pdf/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pdf/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pdf/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pdf/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/programs/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/programs/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/programs/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/programs/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/programs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/programs/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/settings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/settings/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/SliderController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/slider/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/slider/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/slider/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +202,9 @@
       <workItem from="1638699777046" duration="1211000" />
       <workItem from="1638791508771" duration="3299000" />
       <workItem from="1638821273327" duration="132000" />
-      <workItem from="1638885699443" duration="1475000" />
+      <workItem from="1638885699443" duration="1925000" />
+      <workItem from="1638987345289" duration="92000" />
+      <workItem from="1639050613583" duration="345000" />
     </task>
     <servers />
   </component>

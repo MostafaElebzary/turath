@@ -34,7 +34,7 @@
         <div class="card m-b-20">
             <div class="card-body" style='text-align:right'>
 
-                {!! Form::model($slider, ['route' => ['slider.update',$slider->id] , 'method'=>'put' ,'files'=> true ]) !!}
+                {!! Form::model($slider, ['route' => ['sliders.update',$slider->id] , 'method'=>'put' ,'files'=> true ]) !!}
                 {{ csrf_field() }}
 
                 <div class="form-group row">

@@ -57,7 +57,7 @@ class SliderController extends Controller
 
         $slider = Slider::where('id', $id)->first();
         if ($slider == null){
-            return redirect('slider');
+            return redirect('sliders');
         }
         return view('slider.edit', \compact('slider'));
     }
@@ -84,7 +84,7 @@ class SliderController extends Controller
         $slider->image =$request['image'];
         $slider->save();
         session()->flash('success', trans('admin.updatedsuccess'));
-        return redirect(url('slider'));
+        return redirect(url('sliders'));
     }
 
 

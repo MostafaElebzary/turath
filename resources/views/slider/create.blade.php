@@ -34,7 +34,7 @@
             <div class="card m-b-20">
                 <div class="card-body" style='text-align:right'>
 
-                    {{ Form::open( ['url' => ['slider'],'method'=>'post','files'=> true] ) }}
+                    {{ Form::open( ['url' => ['sliders'],'method'=>'post','files'=> true] ) }}
 
                     {{ csrf_field() }}
                     <div class="form-group row">

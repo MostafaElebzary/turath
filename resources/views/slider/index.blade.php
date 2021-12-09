@@ -68,7 +68,6 @@
                         <tr style='text-align:center; font-family: Cairo;font-size: 18px;'>
                             <th>#</th>
                             <th>الصورة</th>
-
                             <th>تعديل</th>
                         </tr>
                         </thead>
@@ -87,7 +86,7 @@
                                 <td><img src="{{url($user->image) }}" style="width:150px;height:150px;"/>
                                 </td>
                                 <td> <a class='btn btn-raised btn-success btn-sml'
-                                        href=" {{url('slider/'.$user->id.'/edit')}}"><i class="fa fa-edit"></i></a>
+                                        href=" {{url('sliders/'.$user->id.'/edit')}}"><i class="fa fa-edit"></i></a>
                                 </td>
 
                             </tr>
@@ -120,7 +119,6 @@
     <!-- Responsive examples -->
     <script src="{{ URL::asset('assets/plugins/datatables/dataTables.responsive.min.js') }}"></script>
     <script src="{{ URL::asset('assets/plugins/datatables/responsive.bootstrap4.min.js') }}"></script>
-
     <!-- Datatable init js -->
     <script src="{{ URL::asset('assets/pages/datatables.init.js') }}"></script>
 @endsection

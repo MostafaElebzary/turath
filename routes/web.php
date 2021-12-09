@@ -33,7 +33,7 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::resource('settings', 'admin\SettingsController');
     //slider
-    Route::resource('slider', 'admin\SliderController');
+    Route::resource('sliders', 'admin\SliderController');
 
     Route::resource('knowus', 'admin\knowusController');
     Route::get('delete_img/{id}', 'admin\knowusController@destroy');
