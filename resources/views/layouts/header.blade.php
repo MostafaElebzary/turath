@@ -132,7 +132,7 @@
                             </li>
 
                             <li class="">
-                                <a href="{{url('slider')}}"> صور السليدر</a>
+                                <a href="{{url('sliders')}}"> صور السليدر</a>
 
                             </li>
                             <li class="">
