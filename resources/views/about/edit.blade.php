@@ -10,15 +10,12 @@
     <div class="app-content content container-fluid">
         <div class="breadcrumb-wrapper col-xs-12">
             <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ route('admin.index') }}">
+                        لوحة التحكم</a>
+                </li>
                 <li class="breadcrumb-item">
-                    لوحة التحكم
-                </li>
-                <li class="breadcrumb-item"><a href="{{ url()->previous() }}">
                         الرؤية والرسالة والاهداف
-                    </a>
                 </li>
-
-
             </ol>
         </div>
     </div>

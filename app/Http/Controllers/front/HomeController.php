@@ -4,6 +4,7 @@ namespace App\Http\Controllers\front;
 
 use App\About;
 use App\Contact;
+use App\Document;
 use App\Donation;
 use App\Http\Controllers\Controller;
 use App\Knowus;
@@ -85,6 +86,13 @@ class HomeController extends Controller
 
 
         return view('front.lecdesicions', compact('Decision', 'Mahder'));
+    }
+
+
+    public function documents()
+    {
+        $data = Document::get();
+        return view('front.documents', compact('data'));
     }
 
     public function parteners()

@@ -31,14 +31,11 @@
     <div class="app-content content container-fluid">
         <div class="breadcrumb-wrapper col-xs-12">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">
+                <li class="breadcrumb-item"><a href="{{ route('admin.index') }}">
                     لوحه التحكم
+                    </a>
                 </li>
-                <li class="breadcrumb-item"> صور السليدر
-
-                </li>
-
-
+                <li class="breadcrumb-item"> صور السليدر</li>
             </ol>
         </div>
     </div>

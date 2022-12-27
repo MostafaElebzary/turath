@@ -64,6 +64,7 @@
                                             <ul class="sub-menu">
                                                 <li><a href="{{url('Systems-Policy')}}">الانظمة والسياسات</a></li>
                                                 <li><a href="{{url('LecDesicions')}}">المحاضر والقرارات</a></li>
+                                                <li><a href="{{route('documents.front')}}">الوثائق</a></li>
                                             </ul>
                                         </li>
                                     </ul>

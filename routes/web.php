@@ -47,6 +47,18 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('store_pdf', 'admin\PdfController@store');
     Route::get('pdf/{id}/delete', 'admin\PdfController@destroy');
 
+//    documents
+    Route::group(['prefix' => 'documents', 'as' => 'documents', 'namespace' => 'admin'], function () {
+        Route::get('/', 'DocumentsController@index')->name('.index');
+        Route::get('create', 'DocumentsController@create')->name('.create');
+        Route::post('store', 'DocumentsController@store')->name('.store');
+        Route::get('edit/{id}', 'DocumentsController@edit')->name('.edit');
+        Route::post('update/{id}', 'DocumentsController@update')->name('.update');
+        Route::get('{id}/delete', 'DocumentsController@destroy')->name('.delete');
+        Route::post('change_status', 'DocumentsController@change_status')->name('.change_status');
+    });
+
+
     Route::resource('programs', 'admin\ProgramController');
     Route::get('programs/{id}/delete', 'admin\ProgramController@destroy');
 
@@ -83,10 +95,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('map', 'admin\MapController');
 
 
-    Route::get('/logout', function () {
-        Auth::logout();
-        return back();
-    });
+
+    Route::get('/logout', 'admin\HomeController@logout');
+
 });
 
 Route::get('/', 'front\HomeController@index');
@@ -98,6 +109,7 @@ Route::get('/Systems-Policy', 'front\HomeController@SystemsPolicy');
 Route::get('/LecDesicions', 'front\HomeController@LecDesicions');
 Route::get('/parteners', 'front\HomeController@parteners');
 Route::get('/contactInfo', 'front\HomeController@contactInfo');
+Route::get('/documents/front', 'front\HomeController@documents')->name('documents.front');
 
 //donation
 Route::get('/donation-show', 'front\HomeController@Donation');
@@ -132,20 +144,5 @@ Route::get('/coverages-show', 'front\CoveragesController@index');
 Route::get('/coverage/{id}', 'front\CoveragesController@show');
 
 
-
-Route::get('lang/{lang}', function ($lang) {
-
-    if (session()->has('lang')) {
-        session()->forget('lang');
-    }
-    if ($lang == 'ar') {
-        session()->put('lang', 'ar');
-    } else {
-        session()->put('lang', 'en');
-    }
-
-    return back();
-
-
-});
+Route::get('lang/{lang}', 'admin\HomeController@change_lang');
 

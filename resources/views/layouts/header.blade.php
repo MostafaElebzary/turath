@@ -170,6 +170,8 @@
                                 <a href="{{route('pdf',['type' => "Policy"])}}">السياسات</a>
                                 <a href="{{route('pdf',['type' => "Mahder"])}}">المحاضر</a>
                                 <a href="{{route('pdf',['type' => "Decision"])}}">القرارات</a>
+                                <a href="{{route('pdf',['type' => "Decision"])}}">القرارات</a>
+                                <a href="{{route('documents.index')}}">الوثائق</a>
 
                             </li>
 

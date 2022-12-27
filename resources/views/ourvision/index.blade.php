@@ -31,15 +31,13 @@
     <div class="app-content content container-fluid">
         <div class="breadcrumb-wrapper col-xs-12">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                    لوحة التحكم
+                <li class="breadcrumb-item"><a href="{{ route('admin.index') }}">
+                        لوحة التحكم
+                    </a>
                 </li>
                 <li class="breadcrumb-item">
-                        رؤيتنا
-
+                    رؤيتنا
                 </li>
-
-
             </ol>
         </div>
     </div>
@@ -82,16 +80,16 @@
             </div>
         </div>
         <div class="col-6">
-            <img src="{{url($users->image) }}" style="width:50%;height:150px;" />
+            <img src="{{url($users->image) }}" style="width:50%;height:150px;"/>
         </div>
     </div>
 
 
-                    <div class="row">
+    <div class="row">
 
         <div class="col-12">
             <div class="text-center">
-                <a href="{{url('our-vision/create')}}  " class="btn btn-info  btn-lg">إضافة نص فرعي    </a>
+                <a href="{{url('our-vision/create')}}  " class="btn btn-info  btn-lg">إضافة نص فرعي </a>
             </div>
             <div class="card m-b-20">
                 <div class="card-body">

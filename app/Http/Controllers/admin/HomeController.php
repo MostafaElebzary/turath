@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 use App\User;
-use Illuminate\Support\Facades\Hash;
-use App\Permission;
+
 
 
 class HomeController extends Controller
@@ -24,6 +24,28 @@ class HomeController extends Controller
 
     }
 
+    public function logout()
+    {
+
+        Auth::logout();
+        return back();
+    }
+
+    public function change_lang($lang)
+    {
+        if (session()->has('lang')) {
+            session()->forget('lang');
+        }
+        if ($lang == 'ar') {
+            session()->put('lang', 'ar');
+        } else {
+            session()->put('lang', 'en');
+        }
+
+        return back();
+
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -37,24 +59,24 @@ class HomeController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
-        $data=$this->validate(\request(),
-        [
-            'name'=>'required|unique:users',
+        $data = $this->validate(\request(),
+            [
+                'name' => 'required|unique:users',
 
-            'job'=>'required',
-            'type' => 'required|in:admin,user',
-            'status' => 'required|in:active,deactive',
+                'job' => 'required',
+                'type' => 'required|in:admin,user',
+                'status' => 'required|in:active,deactive',
 
-            'mobile'=>'required|numeric',
-            'email'=>'required|unique:users',
-            'password' => 'required|min:6'
+                'mobile' => 'required|numeric',
+                'email' => 'required|unique:users',
+                'password' => 'required|min:6'
 
-        ]);
+            ]);
         $data['password'] = bcrypt(request('password'));
 
 
@@ -64,14 +86,14 @@ class HomeController extends Controller
         $permissions['user_id'] = $user_id;
         $per = Permission::create($permissions);
         $per->save();
-        session()->flash('success',trans('admin.addedsuccess'));
+        session()->flash('success', trans('admin.addedsuccess'));
         return redirect(url('users'));
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -82,7 +104,7 @@ class HomeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -95,42 +117,42 @@ class HomeController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
         $data = $this->validate(\request(),
-        [
-            'name' => 'required|unique:users,name,' . $id,
-            'mobile' => 'numeric|required|unique:users,mobile,' . $id,
-            'email' =>  'required|unique:users,email,' . $id,
+            [
+                'name' => 'required|unique:users,name,' . $id,
+                'mobile' => 'numeric|required|unique:users,mobile,' . $id,
+                'email' => 'required|unique:users,email,' . $id,
 
-            'job'=>'required',
-            'type' => 'required|in:admin,user',
-            'status' => 'required|in:active,deactive',
-            // 'password' => 'sometimes|nullable|min:6',
+                'job' => 'required',
+                'type' => 'required|in:admin,user',
+                'status' => 'required|in:active,deactive',
+                // 'password' => 'sometimes|nullable|min:6',
 
-        ]);
+            ]);
 
-         if($request->password != null) {
-        $data['password'] = Hash::make($request->password);
+        if ($request->password != null) {
+            $data['password'] = Hash::make($request->password);
 
-            }
+        }
 
         User::where('id', $id)->update($data);
         session()->flash('success', trans('admin.editsuccess'));
 
 
-    return redirect(url('users'));
+        return redirect(url('users'));
 
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
