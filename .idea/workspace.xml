@@ -20,37 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d35b55a-8224-4efd-9685-314c875150e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Document.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/DocumentsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2022_12_27_025526_create_documents_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/default/pdf_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/default/word_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/documents/1672099886875.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/documents/16720999817381.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/documents/16721001864755.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/documents/16721003544367.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/documents/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/documents/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/documents/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/documents.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/turth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/turth.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/DocumentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/DocumentsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/front/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/front/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontlayout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontlayout/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/knowus/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/knowus/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ourvision/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ourvision/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/settings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/settings/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slider/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/documents.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/documents.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +225,9 @@
       <workItem from="1639050613583" duration="1253000" />
       <workItem from="1672043174621" duration="3130000" />
       <workItem from="1672076867012" duration="1689000" />
-      <workItem from="1672098531165" duration="3232000" />
+      <workItem from="1672098531165" duration="3419000" />
+      <workItem from="1672143010403" duration="632000" />
+      <workItem from="1676466143320" duration="1055000" />
     </task>
     <servers />
   </component>
@@ -269,6 +244,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

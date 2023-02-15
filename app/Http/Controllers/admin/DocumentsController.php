@@ -44,7 +44,7 @@ class DocumentsController extends Controller
         $data = $this->validate(\request(),
             [
                 'name' => 'required',
-                'image' => 'required',
+                'image' => 'required|mime:png',
             ]);
         Document::create($data);
         session()->flash('success', trans('admin.addedsuccess'));

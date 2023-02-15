@@ -89,9 +89,13 @@ class HomeController extends Controller
     }
 
 
-    public function documents()
+    public function documents(Request $request)
     {
-        $data = Document::get();
+        $data = Document::Query();
+        if ($request->search) {
+            $data = $data->where('name', 'like', '%' . $request->search . '%');
+        }
+        $data = $data->orderBy('created_at', 'desc')->get();
         return view('front.documents', compact('data'));
     }
 
