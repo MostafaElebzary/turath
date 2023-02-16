@@ -16,7 +16,7 @@ class DocumentsController extends Controller
     public function index()
     {
         $data = Document::get();
-        return view('documents.index', \compact('data', ));
+        return view('documents.index', \compact('data' ));
 
 
     }
@@ -44,7 +44,7 @@ class DocumentsController extends Controller
         $data = $this->validate(\request(),
             [
                 'name' => 'required',
-                'image' => 'required|mime:png',
+                'image' => 'required|mimes:png,pdf,docx',
             ]);
         Document::create($data);
         session()->flash('success', trans('admin.addedsuccess'));
